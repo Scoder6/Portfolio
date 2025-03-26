@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  output: "export",
+  distDir: "out",
+  basePath: "/Portfolio", // Replace with your GitHub repo name
+  trailingSlash: true, 
+};
 
-export default nextConfig;
+module.exports = nextConfig;
